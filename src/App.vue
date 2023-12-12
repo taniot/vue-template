@@ -1,11 +1,17 @@
 <script>
 export default {
   name: 'DefaultTemplate',
+
+  data() {
+    return {
+      text: 'Template VueJS',
+    };
+  },
 };
 </script>
 
 <template>
-  <h1>Ciao</h1>
+  <h1>{{ text }}</h1>
 </template>
 
-<style></style>
+<style scoped lang="scss"></style>
